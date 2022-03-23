@@ -1,0 +1,22 @@
+.div-auto{
+    width: auto;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 1em;
+}
+.div-max{
+    width: max-content;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 1em;
+}
+.div-fit{
+    width: fit-content;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 1em;
+}
+
+h1{
+    color: red;
+}
