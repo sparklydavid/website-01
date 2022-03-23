@@ -1,27 +1,46 @@
-.div-auto{
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: red;
+}
+
+mark {
+    background-color: lightgray;
+    color: black;
+    border-radius: 0.2em;
+    padding: 3px 2px;
+}
+
+br {
+    display: block;
+    margin: 10px 0;
+}
+
+.div-auto {
     width: auto;
     border-style: dashed;
     border-color: red;
     border-radius: 1em;
 }
-.div-max{
+
+.div-max {
     width: max-content;
     border-style: dashed;
     border-color: red;
     border-radius: 1em;
 }
-.div-fit{
+
+.div-fit {
     width: fit-content;
     border-style: dashed;
     border-color: red;
     border-radius: 1em;
 }
 
-h1{
-    color: red;
-}
 
-#div-related{
+#div-related {
     width: auto;
     border-style: solid;
     border-color: lightseagreen;
